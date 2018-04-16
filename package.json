@@ -2,8 +2,15 @@
   "name": "jlem-js-exceptions",
   "version": "1.0.0",
   "description": "A simple library containing verbose JS exceptions to make debugging and error throwing more clear.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "https://github.com/jlem/js-exceptions.git",
   "author": "Jon <agmlauncher@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "dependencies": {
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.6.1"
+  }
 }
