@@ -1,0 +1,9 @@
+{
+  "name": "jlem-js-exceptions",
+  "version": "1.0.0",
+  "description": "A simple library containing verbose JS exceptions to make debugging and error throwing more clear.",
+  "main": "index.js",
+  "repository": "https://github.com/jlem/js-exceptions.git",
+  "author": "Jon <agmlauncher@gmail.com>",
+  "license": "MIT"
+}
